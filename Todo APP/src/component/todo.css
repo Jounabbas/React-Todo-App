@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.todo{
+    width: 40%;
+    margin-left: 30%;    
+}
+.todo h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.todo form{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    display: flex;
+}
+.todo input{
+    width: 70%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+   padding-left: 10px;
+   font-size: 14px;
+}
+.todo form button{
+    width: 30%;
+    text-align: center;
+    background: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formdata{
+    width: 60%;
+    margin-top: 30px;
+    padding-top: 13px;
+    margin-left: 20%;
+    height: 45px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(244, 240, 240);
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.mark{
+    float: right;
+    color: rgb(9, 255, 0);
+    font-size: 25px;
+    margin-right: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.del{
+    margin-right: 15px;
+   float: right;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    height: 45px ;
+    border: 0cap;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.time{
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:1200px) {
+    .todo{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:800px) {
+    .todo{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:600px) {
+    .todo{
+        width: 100%;
+        margin-left: 0;
+    }
+}
