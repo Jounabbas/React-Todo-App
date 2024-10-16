@@ -19,6 +19,7 @@ body{
     margin-left: 20%;
     margin-top: 20px;
     display: flex;
+   
 }
 .todo input{
     width: 70%;
@@ -52,7 +53,7 @@ body{
     padding-left: 20px;
     font-weight: bold;
     font-size: 16px;
-    
+
 }
 .mark{
     float: right;
@@ -109,5 +110,16 @@ body{
     .todo{
         width: 100%;
         margin-left: 0;
+    }
+}
+@media screen and (max-width:450px) {
+   
+    .todo form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .formdata{
+        width: 80%;
+        margin-left: 10%;
     }
 }
